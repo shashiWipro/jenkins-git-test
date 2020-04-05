@@ -153,7 +153,7 @@ public List<PriceEntity> searchHighestPriceToLowestPrice()
 	  String valueOf = String.valueOf(productList);
 	  return valueOf+" "+currency;
      }
-
+/*
 public double convertFromINRToOtherCurrency(Double price ,String currency) throws JSONException {
 	      HttpHeaders headers = new HttpHeaders();
 	      headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
@@ -180,5 +180,5 @@ public double convertFromINRToOtherCurrency(Double price ,String currency) throw
 	       return (parseDouble*price);
 	   }
 	
-	
+	*/
 }
