@@ -145,7 +145,7 @@ public List<PriceEntity> searchHighestPriceToLowestPrice()
 		return priceService.deleteByProductId(productId);
 	}
 	
-
+/*
 @RequestMapping("/price-service/convert/{price}/{currency}")	
  private String convertToOtherCurrency(@PathVariable Double price,@PathVariable String currency) throws JSONException
      {
@@ -153,7 +153,7 @@ public List<PriceEntity> searchHighestPriceToLowestPrice()
 	  String valueOf = String.valueOf(productList);
 	  return valueOf+" "+currency;
      }
-/*
+
 public double convertFromINRToOtherCurrency(Double price ,String currency) throws JSONException {
 	      HttpHeaders headers = new HttpHeaders();
 	      headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
