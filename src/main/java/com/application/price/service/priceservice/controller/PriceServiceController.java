@@ -2,9 +2,6 @@ package com.application.price.service.priceservice.controller;
 
 import java.util.Arrays;
 import java.util.List;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpEntity;
